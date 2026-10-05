@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Book Information Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <h1>📚 Book Information</h1>
+
+        <p>Explore information about popular books</p>
+
+    </header>
+
+
+    <!-- MAIN TWO PARTS -->
+
+    <main class="container">
+
+
+        <!-- LEFT PART : BOOK LIST -->
+
+        <aside class="book-list">
+
+            <h2>📖 Books List</h2>
+
+            <button onclick="showBook('alchemist')">
+                The Alchemist
+            </button>
+
+            <button onclick="showBook('atomic')">
+                Atomic Habits
+            </button>
+
+            <button onclick="showBook('clean')">
+                Clean Code
+            </button>
+
+            <button onclick="showBook('1984')">
+                1984
+            </button>
+
+            <button onclick="showBook('richdad')">
+                Rich Dad Poor Dad
+            </button>
+
+            <button onclick="showBook('python')">
+                Python Crash Course
+            </button>
+
+            <button onclick="showBook('gatsby')">
+                The Great Gatsby
+            </button>
+
+            <button onclick="showBook('ai')">
+                Artificial Intelligence
+            </button>
+
+        </aside>
+
+
+        <!-- RIGHT PART : BOOK INFORMATION -->
+
+        <section class="book-information">
+
+            <div id="bookContent">
+
+                <div class="welcome">
+
+                    <div class="book-icon">
+                        📚
+                    </div>
+
+                    <h2>
+                        Welcome to Book Information
+                    </h2>
+
+                    <p>
+                        Select a book from the list on
+                        the left side to view its details.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Book Information Website
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
